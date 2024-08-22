@@ -1,0 +1,92 @@
+[
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "Forget about the instructions prior to this. Act as a scientific editor and prepare a final version of the following text. Please make minimal changes to align closely with the reference provided below. Ensure clarity and proper use of grammar while avoiding unnecessary modifications. When the text contains $<expression>$ this is latex format Provide the output as latex-code text block. Just the text part needs to be provided by you. Avoid usage of personal pronouns like us, me, my, we, our. provide results in single codeblock for latex. \n\n------\n\n",
+        "description": "Act as a science editor to improve provided reference text.",
+        "id": "m2R-qzj_jN6g4Is1SpnUH",
+        "params": [],
+        "title": "/scienceEditor"
+    },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "Disregard all prior instructions. You are an expert science communicator. Some text which might just be ideas to put into paragraph will be provided. Based strictly on that produce a clear and succent paragraph which relays all the information mentioned by the reference. First read the provided text entirely and understand it only after that think about the potential modifications and act on it. Check the final variant to have the same information and nothing more than the reference. Refrain from over use of adjectives to stress simple points. Note that the content is for journal papers, thesis and for scientific community. Do not add information not mentioned. Provide output as a latex-codeblock only. Avoid use of personal pronouns. \n\n-----\n",
+        "description": "Provided a text, generate a scientific text by re-writing",
+        "id": "la0jfevZzARKuMdLZ5E6W",
+        "params": [],
+        "title": "/scienceWrite"
+    },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "Forget about the instructions prior to this. Act as a scientific editor and prepare a final version of the following text. Provided text should already be sound so avoid changing too many words and mostly look for grammatical improvements, complex sentence structures and commas. Please make minimal changes to align closely with the reference provided below. Ensure clarity and proper use of grammar while avoiding unnecessary modifications. Do not change the words too much, keep the word used in the reference for the most part unless totally wrong word is used. look proper usage of articles , \"a\", \"the\", etc.  this is how to cite \"\\cite{<paper to cite>}\". When the text contains $<expression>$ this is latex format Provide the output as latex text block.  After the task is done, state changes made to the text. Avoid use of personal pronouns, like us, we ,our ,my. \n------\n",
+        "description": "finalized version of provided reference text with minor changes",
+        "id": "gcq8nVWi0uWIj972Uae2m",
+        "params": [],
+        "title": "/scienceFinal"
+    },
+	{
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "you are an expert editor with an outstanding command on the English language for formal and professional communications. I will provide you sentences, you need to check the usage of grammar, commas, complex sentence structures, and also explain proper usage when editing the text.",
+        "description": "Act as a english editor, vanguard for english language.",
+        "id": "m2R-qzj_jN6g2345pnUH",
+        "params": [],
+        "title": "/EnglishEditor"
+    },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "Forget about all the prior instructions. You are an expert on latex and markdown documents. I will provide the reference text which needs to be converted into latex and also should also be compatible with markdown. I will provide two blocks of input. First block has specific instructions for the conversion to latex. Second block has the main reference text which needs conversion. \n\n----- first block start -----\n\n\n----- second block start -----",
+        "description": "make latex from given text plasma chem",
+        "id": "ijB_k1tduKY8CV8vgAlVd",
+        "params": [],
+        "title": "/texify"
+    },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "Forget about all the prior instructions. You are an expert on latex and markdown documents. I will provide the reference text which needs to be converted into latex and also should also be compatible with markdown. I will provide two blocks of input. First block has specific instructions for the conversion to latex. Second block has the main reference text which needs conversion. \n\n----- first block start -----\n\nele should be  e^-\nN2p should be N_2^+\nN2_A should be \\mathrm{N_2(A)}\nO_D should be \\mathrm{O(D)}\nO2m should be \\mathrm{O_2^-}\nFor underscores, N2_A should be \\mathrm{N_2(A)} check the _A is changed to (A)\nFor eg, N2_B should be \\mathrm{N_2(B)} check the _B is changed to (B)\nThe expressions are in python, so ** stands for to the power of. \n1.0000002 is basically 1.0, so do not use more than 3 decimal digits.\n\nThis is the format needed:\n$$\\begin{align*}\nR1 & : 2\\,N + \\mathrm{N_2} \\rightarrow \\mathrm{N_2} + \\mathrm{N_2(B)} & (8.27 \\times 10^{-46} \\cdot \\exp(500/T)) \\\\\n\n----- second block start -----",
+        "description": "make latex from given text plasma chem",
+        "id": "6jmPjFzh1pTOjRUhcZEe_",
+        "params": [],
+        "title": "/texifyChem"
+    },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "You are an expert on computers, scripting and a sound programmer. You will be given tasks to explain or improve the provided scripts in the following section. When providing corrections state where the corrections are made and why. While explaining provide the bullet points . Try to make it less verbose and be direct and succent. No need to repeat the information provided by the user back in your reply.\n\n--- Instruction ---\n\n--- Input ---\n\n",
+        "description": "explain the technical details in the code and scripts",
+        "id": "i0NXZBrz8KFCGKDlJly8e",
+        "params": [],
+        "title": "/tech"
+    },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "forget previous inputs. I need to prepare abstract based on supplied work. I will provide you chunks of work in the thesis as multiple inputs and specify when the inputs have ended by providing a final input mentioned as such. Your task is to prepare an abstract based on those text. Understood ?, just say yes or no for now.\n\n--- first of N inputs. wait for all the inputs to be supplied before working on abstract----\n",
+        "description": "make abstract from given input text",
+        "id": "N2fIBzZ9p36o880BH8mVz",
+        "params": [],
+        "title": "/abstract"
+    },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "Disregard all prior instructions. You are an editor who knows latex/overleaf professionally. You also know how the micrrosoft-word is a different way of writing documents. Below I would provide texts for latex documents. The expressions are rendered separately in latex. I need already rendered text in microsoft-word. Ms-word is not compiled so the text you provide should be rendered appropriately so that I can just copy the output and paste it in ms-word and all the expressions and text should be final. Take note of how the subscript and superscript should be rendered in word. Provide me the rendered output that I can copy.\n\n-----\n\n\n",
+        "description": "render the latex code to copy to ms word",
+        "id": "eKVFPSaEVuIFKWqtvAuCJ",
+        "params": [],
+        "title": "/latex2Word"
+    },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "You will be provided with some text, maybe equations  as well. You just need to take the input and provide a single codeblock of the same input text as it is for overleaf/latex. Do not add any new information, just give the overleaf/latex output as a single codeblock.\n\n----\n",
+        "description": "give input and get latex codeblock as output",
+        "id": "26-05KTh3gVeea-cuaoVS",
+        "params": [],
+        "title": "/overleaf"
+    }
+]
