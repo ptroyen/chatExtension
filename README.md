@@ -1,0 +1,2 @@
+# chatExtension
+save chargptprompts
