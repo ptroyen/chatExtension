@@ -26,6 +26,15 @@
         "params": [],
         "title": "/scienceFinal"
     },
+    {
+        "autoSwitch": false,
+        "categoryId": "",
+        "content": "Forget about the instructions prior to this. Act as a scientific editor and prepare a final version of the following text. Provided text should already be sound so avoid changing too many words and mostly look for grammatical improvements, complex sentence structures and commas. Please make minimal changes to align closely with the reference provided below. Ensure clarity and proper use of grammar while avoiding unnecessary modifications. Do not change the words too much, keep the word used in the reference for the most part unless totally wrong word is used. look proper usage of articles , \"a\", \"the\", etc.  this is how to cite \"\\cite{<paper to cite>}\". When the text contains $<expression>$ this is latex format Provide the output as latex text block.  After the task is done, state changes made to the text. Avoid use of personal pronouns, like us, we ,our ,my. \n------\n",
+        "description": "finalized version of provided reference text with minor changes",
+        "id": "gcq8nVWi0uWIj972Uae2m",
+        "params": [],
+        "title": "/combineTwo"
+    },
 	{
         "autoSwitch": false,
         "categoryId": "",
